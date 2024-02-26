@@ -50,9 +50,9 @@
   </header>
   <!-- HEADER END -->
   <!-- MAIN -->
-  <div class="container">
+  <div class="container mb-3">
     <div class="row">
-      <div class="col-12 col-lg-10">
+      <div class="col-12 col-lg-9">
         <section class="heading_button">
           <div class="row">
             <div class="col-6 d-flex justify-content-start">
@@ -64,40 +64,221 @@
           </div>
         </section>
         <section class="panel">
-          <table class="table">
+          <table class="table table-striped">
             <thead>
               <tr>
-                <th scope="col">Titolo</th>
-                <th scope="col">Data prestito</th>
+                <th class="w-50" scope="col">Titolo</th>
+                <th class="d-none d-md-table-cell" scope="col">Data prestito</th>
                 <th scope="col">Stato</th>
-                <th scope="col text-end">Azioni</th>
+                <th class="text-center" scope="col">Azioni</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="bg-secondary-subtle border-top border-bottom">I pilastri della terra</td>
-                <td class="bg-secondary-subtle border-top border-bottom">-</td>
-                <td class="bg-secondary-subtle border-top border-bottom"><span class="badge text-bg-success">Disponibile</span></td>
-                <td class="bg-secondary-subtle border-top border-bottom text-center">
-                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i class="bi bi-pencil-fill"></i></button>
-                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i class="bi bi-trash-fill"></i></button>
-              </td>
+                <td>I pilastri della terra</td>
+                <td class="d-none d-md-table-cell">-</td>
+                <td colspan><span class="badge text-bg-success">Disponibile</span></td>
+                <td class="text-center">
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-pencil-fill"></i></button>
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-trash-fill"></i></button>
+                </td>
               </tr>
               <tr>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <td>I promessi sposi</td>
+                <td class="d-none d-md-table-cell">-</td>
+                <td colspan><span class="badge text-bg-danger">Non disponibile</span></td>
+                <td class="text-center">
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-pencil-fill"></i></button>
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-trash-fill"></i></button>
+                </td>
               </tr>
               <tr>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
+                <td>Il codice Da Vinci</td>
+                <td class="d-none d-md-table-cell">-</td>
+                <td colspan><span class="badge text-bg-danger">Non disponibile</span></td>
+                <td class="text-center">
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-pencil-fill"></i></button>
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-trash-fill"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>Harry Potter e la pietra filosofale</td>
+                <td class="d-none d-md-table-cell">-</td>
+                <td colspan><span class="badge text-bg-success">Disponibile</span></td>
+                <td class="text-center">
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-pencil-fill"></i></button>
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-trash-fill"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>Il piccolo principe</td>
+                <td class="d-none d-md-table-cell">25/07/2023</td>
+                <td colspan><span class="badge text-bg-warning">In prestito</span></td>
+                <td class="text-center">
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-pencil-fill"></i></button>
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-trash-fill"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>Il mondo di Sofia</td>
+                <td class="d-none d-md-table-cell">-</td>
+                <td colspan><span class="badge text-bg-success">Disponibile</span></td>
+                <td class="text-center">
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-pencil-fill"></i></button>
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-trash-fill"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>La storia infinita</td>
+                <td class="d-none d-md-table-cell">-</td>
+                <td colspan><span class="badge text-bg-danger">Non disponibile</span></td>
+                <td class="text-center">
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-pencil-fill"></i></button>
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-trash-fill"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>Shining</td>
+                <td class="d-none d-md-table-cell">-</td>
+                <td colspan><span class="badge text-bg-danger">Non disponibile</span></td>
+                <td class="text-center">
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-pencil-fill"></i></button>
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-trash-fill"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>Harry Potter e l'ordine della fenice</td>
+                <td class="d-none d-md-table-cell">-</td>
+                <td colspan><span class="badge text-bg-success">Disponibile</span></td>
+                <td class="text-center">
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-pencil-fill"></i></button>
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-trash-fill"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>Le conache di Narnia: il leone, la strega e l'armadio</td>
+                <td class="d-none d-md-table-cell">25/07/2023</td>
+                <td colspan><span class="badge text-bg-warning">In prestito</span></td>
+                <td class="text-center">
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-pencil-fill"></i></button>
+                  <button class="border-2 border-secondary border-opacity-25 rounded-1 bg-transparent text-secondary"><i
+                      class="bi bi-trash-fill"></i></button>
+                </td>
               </tr>
             </tbody>
           </table>
         </section>
       </div>
-      <div class="col-12 col-lg-2">
-        navbar
+      <div class="col-12 col-lg-3">
+        <div class="card mb-3">
+          <div class="card-header">
+            <h2>Todo</h2>
+          </div>
+          <div class="card-body">
+            <div class="card">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <input type="checkbox" name="btncheck1" id="btncheck1">
+                  <label for="btncheck1">An item</label>
+                </li>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <input type="checkbox" name="btncheck2" id="btncheck2">
+                    <label for="btncheck2">An item</label>
+                  </li>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <input type="checkbox" name="btncheck3" id="btncheck3">
+                      <label for="btncheck3">An item</label>
+                    </li>
+                  </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-header">
+            <h2>F.A.Q.</h2>
+          </div>
+          <div class="card-body">
+            <div class="card">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                      collapse plugin adds the appropriate classes that we use to style each element. These classes
+                      control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                      modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                      that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                      does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                      collapse plugin adds the appropriate classes that we use to style each element. These classes
+                      control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                      modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                      that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                      does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                      collapse plugin adds the appropriate classes that we use to style each element. These classes
+                      control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                      modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                      that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                      does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
